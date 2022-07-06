@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Inconsolata', monospace;
+    margin: 1% 0 0 3%;
+    font-size: 1.5rem;
+}
+
+main {
+    transform: translateY(30%);
+    display: flex;
+
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main > img {
+    margin-right: 10%;
+    width: 33rem;
+
+    object-fit: fill;
+}
+
+.text {
+    display: flex;
+    flex-flow: column;
+
+    font-family: 'Space Mono', monospace;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 600px;
+    color: #333333;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+
+p {
+    font-size: 1.5rem;
+    width: 25rem;
+
+    margin-bottom: 5%;
+    color: #4f4f4f;
+}
+
+.btn {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+
+    background-color: #333333;
+    border: none;
+
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+
+    font-size: 0.9rem;
+    width: 13.5rem;
+
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.btn:hover {
+    transition-duration: .5s;
+    opacity: .75;
+}
+
+footer {
+    display: flex;
+
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 27rem;
+    font-size: 14px;
+    color:hsla(0, 0%, 74%, 1);
+}
+
+a {
+    text-decoration: none;
+    color: hsla(0, 0%, 74%, 1);
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1250px) {
+    h4 {
+        margin: 2% 0 0 2%;
+        font-family: 'Inconsolata';
+        font-size: 24px;
+    }
+
+    main {
+        transform: translateY(10%);
+        display: flex;
+
+        flex-flow: column;
+        justify-content: center;
+
+        align-items: center;
+        margin-right: 10%;
+    }
+
+    main > img {
+        width: 350px;
+    }
+
+    .text {
+        display: flex;
+        flex-flow: column;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 5%;
+    }
+
+    p {
+        font-size: 18px;
+        width: 320px;
+        margin-bottom: 5%;
+    }
+
+    .btn {
+        padding: 15px;
+        font-size: 14px;
+        width: 200px;
+    }
+
+    span {
+        margin-top: 16rem;
+    }
+}

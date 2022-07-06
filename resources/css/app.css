@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .shop-card{
+        @apply
+        bg-gray-100 text-gray-700
+        w-72 min-h-[10rem]
+        shadow-lg rounded-md overflow-hidden
+    }
+
+}
+
+.navbar{
+    height: calc(100vh - 68px);
+}
+
